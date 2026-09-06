@@ -3,7 +3,7 @@ export class RunningSum {
   #total;
 
   constructor() {
-    this.#total = 0;
+    this.#total = 1;
   }
 
   add(value) {
